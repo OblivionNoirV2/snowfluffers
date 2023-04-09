@@ -1,0 +1,54 @@
+body>.img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    max-width: 66vw;
+
+}
+
+body>.img>img {
+    position: relative;
+    border-radius: 5%;
+    margin-bottom: 1vh;
+    z-index: -1;
+    max-width: 66vw;
+    max-height: auto;
+}
+
+.title-c {
+    background-image: url("https://i.ibb.co/BfvqDbG/snow.webp");
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    margin: 0 0 1vh 0;
+    padding: 1vh 0 .5vh 0;
+    flex-direction: column;
+    border-radius: 3%;
+
+}
+
+body {
+    background-color: #6dbbeb;
+
+}
+
+video {
+    height: auto;
+    position: fixed;
+    top: -5vh;
+    left: 0;
+    opacity: 0.25;
+    width: 100vw;
+    height: 120vh;
+    object-fit: cover;
+
+}
+
+.t-two {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 3rem;
+}
